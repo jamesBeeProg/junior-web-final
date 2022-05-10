@@ -10,7 +10,7 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.eol": "\n",
-    "[html][css][javascript][javascript][json][jsonc]": {
+    "[html][css][javascript][javascript][json][jsonc][yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
