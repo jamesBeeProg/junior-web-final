@@ -37,6 +37,13 @@ nav a {
     padding: 10px;
     border-radius: 6px;
     transition: background-color 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+nav a img {
+    height: 20px;
 }
 
 nav a:hover {
