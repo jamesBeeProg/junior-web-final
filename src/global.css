@@ -100,12 +100,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+main {
+    margin-left: 300px;
+    padding: 20px;
 }
-
-::-webkit-scrollbar-thumb {
-    border-radius: 50%;
-    background-color: var(--background3);
-} */
