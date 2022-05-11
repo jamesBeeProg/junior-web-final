@@ -99,11 +99,11 @@ nav a:hover {
     overflow: hidden;
 }
 
-.drop-down-content a:nth-child(1) {
+.drop-down-content a:first-child {
     margin-top: 10px;
 }
 
-.drop-down-content a:nth-child(3) {
+.drop-down-content a:last-child {
     margin-bottom: 10px;
 }
 
