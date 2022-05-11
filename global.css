@@ -23,7 +23,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    height: 100vh;
+    min-height: 100%;
     width: 300px;
     padding: 10px;
     gap: 10px;
@@ -99,3 +99,13 @@ nav a:hover {
 .drop-down-content a:nth-child(3) {
     margin-bottom: 10px;
 }
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background-color: var(--background3);
+} */
