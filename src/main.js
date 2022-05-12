@@ -11,3 +11,7 @@ document.querySelectorAll('.drop-down-button').forEach((button) => {
         }
     });
 });
+
+burger.addEventListener('click', () => {
+    document.querySelector('nav').classList.toggle('burger-active');
+});
