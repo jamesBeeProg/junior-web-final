@@ -1,0 +1,38 @@
+.banner {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 300px;
+}
+
+#banner-wpi {
+    background-image: url('images/banner-wpi.jpg');
+}
+
+#banner-amherst {
+    background-image: url('images/banner-amherst.jpg');
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main section {
+    background-color: var(--background2);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+main section h1 {
+    color: #c3102f;
+}
+
+main > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
