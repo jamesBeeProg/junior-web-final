@@ -22,6 +22,9 @@ main {
 }
 
 main section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background-color: var(--background2);
     padding: 20px;
     border-radius: 12px;
@@ -31,8 +34,36 @@ main section h1 {
     color: #c3102f;
 }
 
+main section p {
+    font-size: 18px;
+}
+
+main section img {
+    border-radius: 6px;
+    width: 30%;
+}
+
 main > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .banner {
+        margin-left: 0;
+    }
+
+    main {
+        gap: 10px;
+    }
+
+    main section {
+        padding: 10px;
+    }
+
+    main > div {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 }
