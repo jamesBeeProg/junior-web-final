@@ -1,0 +1,14 @@
+body {
+    background-color: #5dc79b;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
