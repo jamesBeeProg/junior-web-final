@@ -1,0 +1,32 @@
+main {
+    padding: 0;
+}
+
+header {
+    background: blue;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    background: green;
+    padding: 1em;
+}
+
+section {
+    padding: 3em;
+    background: green;
+    flex-grow: 1;
+}
+
+.row {
+    margin-bottom: 3em;
+}
+
+.row-container {
+    display: flex;
+    align-items: stretch;
+    gap: 1em;
+}
