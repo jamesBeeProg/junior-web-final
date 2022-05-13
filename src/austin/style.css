@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        'Title Title'
+        'Image Information'
+        'Info Image-2'
+        'Footer Footer';
+}
+
+.container * {
+    background-color: #f2f2f2;
+}
+
+.Title {
+    grid-area: Title;
+    color: black;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.Image {
+    grid-area: Image;
+}
+
+.Information {
+    grid-area: Information;
+}
+
+.Info {
+    grid-area: Info;
+}
+
+.Image-2 {
+    grid-area: Image-2;
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #5dc79b;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 250%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+article {
+    color: black;
+    margin-top: 4em;
+    margin-left: 7em;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 170%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 170%;
+    color: black;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    margin: .5em;
+    font-size: 130%;
+}
+
+.disImg {
+    width: 25em;
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2em 1em;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "image image image"
+      "text text text"
+      "price price price";
+}
+  
+.image { grid-area: image; }
+  
+.text { grid-area: text; }
+  
+.price { grid-area: price; }
+  
