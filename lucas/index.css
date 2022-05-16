@@ -5,6 +5,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 4fr);
+  width: 100%;
   gap: 2vh;
 }
 
@@ -25,10 +26,16 @@
 
 .info1,
 .info2,
-.info3,
-.info4,
 footer {
   background-color: #25262b;
+}
+
+.info1 {
+  grid-area: span 2/span 2;
+}
+
+.info2 {
+  grid-area: span 2/span 2;
 }
 
 .image {
