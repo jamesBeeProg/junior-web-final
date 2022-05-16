@@ -28,7 +28,7 @@ main > div:last-child {
 main > div:last-child section {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     background-color: var(--background2);
     padding: 20px;
     border-radius: 12px;
@@ -47,6 +47,22 @@ main > div:last-child section img {
     width: 30%;
 }
 
+#overview > div {
+    display: flex;
+    gap: 20px;
+}
+
+#overview > div > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+#overview img {
+    width: 50%;
+}
+
 main > div:last-child > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,16 +70,7 @@ main > div:last-child > div {
 }
 
 @media (max-width: 1000px) {
-    main > div:last-child {
-        gap: 10px;
-    }
-
-    main > div:last-child section {
-        padding: 10px;
-    }
-
     main > div:last-child > div {
         grid-template-columns: 1fr;
-        gap: 10px;
     }
 }
