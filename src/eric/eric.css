@@ -1,0 +1,127 @@
+:root {
+    --FitchburgGreen: #00563f;
+    --FitchburgYellow: #ccb030;
+    --EndicottGreen: #014935;
+    --EndicottBlue: #002d52;
+    --WPIRed: #ac2b37;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 167, 206);
+}
+
+header > img {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+}
+
+/*
+Article CSS, both the container and all the sections within
+*/
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.endicott {
+    background-color: var(--EndicottBlue);
+}
+
+.fitchburg {
+    background-color: var(--FitchburgGreen);
+}
+
+.wpi {
+    background-color: var(--WPIRed);
+}
+
+.section {
+    width: 98%;
+    margin: 1%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.item {
+    padding: 15px;
+}
+
+.section > img {
+    width: 40%;
+    height: max-content;
+    border-radius: 5px;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+
+.information {
+    border: black 5px solid;
+    border-radius: 40px;
+    background-color: #38393d;
+}
+
+@media screen and (max-width: 1640px) {
+    .section {
+        font-size: 1.05em;
+    }
+
+    .section > img {
+        width: 50%;
+        height: max-content;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .section > img {
+        width: 70%;
+        height: max-content;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section {
+        font-size: 1em;
+    }
+
+    .section > img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section {
+        font-size: 0.95em;
+    }
+
+    .section > img {
+        width: 100%;
+    }
+}

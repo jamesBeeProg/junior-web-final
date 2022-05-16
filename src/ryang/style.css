@@ -25,7 +25,7 @@ main > div:last-child {
     gap: 20px;
 }
 
-main > div:last-child section {
+section {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -34,15 +34,15 @@ main > div:last-child section {
     border-radius: 12px;
 }
 
-main > div:last-child section h1 {
+section h1 {
     color: #c3102f;
 }
 
-main > div:last-child section p {
+section p {
     font-size: 18px;
 }
 
-main > div:last-child section img {
+section img {
     border-radius: 6px;
     width: 30%;
 }
@@ -55,12 +55,12 @@ main > div:last-child section img {
 #overview > div > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     gap: 20px;
 }
 
 #overview img {
-    width: 50%;
+    width: 40%;
 }
 
 main > div:last-child > div {
@@ -70,6 +70,26 @@ main > div:last-child > div {
 }
 
 @media (max-width: 1000px) {
+    main > div:last-child {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    #overview > div {
+        flex-direction: column;
+    }
+
+    #overview > div > div {
+        width: 100%;
+    }
+
+    #overview img {
+        width: 100%;
+    }
+
     main > div:last-child > div {
         grid-template-columns: 1fr;
     }
