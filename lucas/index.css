@@ -5,7 +5,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 4fr);
-  gap: 4vh;
+  gap: 2vh;
 }
 
 .title {
