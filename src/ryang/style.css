@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-left: 300px;
 }
 
 #banner-wpi {
@@ -15,13 +14,18 @@
     background-image: url('images/banner-amherst.jpg');
 }
 
-main {
+#banner-clark {
+    background-image: url('images/banner-clark.jpg');
+}
+
+main > div:last-child {
     display: flex;
     flex-direction: column;
+    padding: 20px;
     gap: 20px;
 }
 
-main section {
+main > div:last-child section {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -30,39 +34,35 @@ main section {
     border-radius: 12px;
 }
 
-main section h1 {
+main > div:last-child section h1 {
     color: #c3102f;
 }
 
-main section p {
+main > div:last-child section p {
     font-size: 18px;
 }
 
-main section img {
+main > div:last-child section img {
     border-radius: 6px;
     width: 30%;
 }
 
-main > div {
+main > div:last-child > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
 @media (max-width: 1000px) {
-    .banner {
-        margin-left: 0;
-    }
-
-    main {
+    main > div:last-child {
         gap: 10px;
     }
 
-    main section {
+    main > div:last-child section {
         padding: 10px;
     }
 
-    main > div {
+    main > div:last-child > div {
         grid-template-columns: 1fr;
         gap: 10px;
     }
