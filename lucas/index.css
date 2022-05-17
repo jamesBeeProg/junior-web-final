@@ -48,6 +48,7 @@ footer {
 
 .image {
   grid-area: span 2/span 2;
+  padding: 15px;
 }
 
 footer {
