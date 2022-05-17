@@ -10,14 +10,27 @@
         'Footer Footer';
 }
 
-.container * {
-    background-color: #f2f2f2;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
 }
 
-.Title {
-    grid-area: Title;
-    color: black;
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+header > img {
+    height: 400px;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 5px;
+    background-color: wheat;
+    box-shadow: none;
 }
 
 .Image {
@@ -34,6 +47,7 @@
     grid-area: Info;
     color: black;
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    box-shadow: none;
 }
 
 .Image-2 {
