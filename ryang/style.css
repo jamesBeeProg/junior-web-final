@@ -69,14 +69,31 @@ main > div:last-of-type > div {
     gap: 20px;
 }
 
-#cost > div {
+#cost > div,
+#time > div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 2px;
     background-color: var(--background3);
 }
 
-#cost > div p {
+#cost > div {
+    grid-template-columns: 1fr 1fr;
+}
+
+#cost > div p:nth-child(-n + 2) {
+    font-weight: bold;
+}
+
+#time > div {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#time > div p:nth-child(-n + 4) {
+    font-weight: bold;
+}
+
+#cost > div p,
+#time > div p {
     background-color: var(--background2);
     padding: 10px;
 }
