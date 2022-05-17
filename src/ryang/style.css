@@ -18,7 +18,7 @@
     background-image: url('images/banner-clark.jpg');
 }
 
-main > div:last-child {
+main > div:last-of-type {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -63,14 +63,14 @@ section img {
     width: 40%;
 }
 
-main > div:last-child > div {
+main > div:last-of-type > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
 @media (max-width: 1000px) {
-    main > div:last-child {
+    main > div:last-of-type {
         padding: 10px;
     }
 
@@ -90,7 +90,7 @@ main > div:last-child > div {
         width: 100%;
     }
 
-    main > div:last-child > div {
+    main > div:last-of-type > div {
         grid-template-columns: 1fr;
     }
 }
