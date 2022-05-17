@@ -1,24 +1,43 @@
+:root {
+    --radius: 20px;
+}
+
 main {
     padding: 0;
 }
 
 header {
-    background: blue;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background: url(https://www.boredpanda.com/blog/wp-content/uploads/2022/05/funny-cat-dog-tweets-cover_800.png);
+    background-size: cover;
 }
 
 header > div {
-    background: green;
+    background: var(--background3);
     padding: 1em;
+    border-radius: var(--radius);
+}
+
+header > a {
+    display: block;
+    font-size: 5em;
+    margin: 1em;
+
+    color: white;
+    text-decoration: none;
 }
 
 section {
-    padding: 3em;
-    background: green;
     flex-grow: 1;
+    padding: 3em;
+    margin: 2em;
+
+    background: var(--background3);
+    border-radius: var(--radius);
 }
 
 .row {
@@ -28,5 +47,4 @@ section {
 .row-container {
     display: flex;
     align-items: stretch;
-    gap: 1em;
 }

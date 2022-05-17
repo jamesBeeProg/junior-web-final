@@ -69,6 +69,18 @@ main > div:last-of-type > div {
     gap: 20px;
 }
 
+#cost > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    background-color: var(--background3);
+}
+
+#cost > div p {
+    background-color: var(--background2);
+    padding: 10px;
+}
+
 @media (max-width: 1000px) {
     main > div:last-of-type {
         padding: 10px;
