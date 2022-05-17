@@ -32,13 +32,19 @@ section {
     background-color: var(--background2);
     padding: 20px;
     border-radius: 12px;
+    border: 1px solid var(--background3);
 }
 
-section h1 {
+h1 {
     color: #c3102f;
 }
 
-section p {
+h2 {
+    font-size: 18px;
+    background-color: var(--background2);
+}
+
+p {
     font-size: 18px;
 }
 
@@ -55,12 +61,12 @@ section img {
 #overview > div > div {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 65%;
     gap: 20px;
 }
 
 #overview img {
-    width: 40%;
+    width: 35%;
 }
 
 main > div:last-of-type > div {
@@ -80,22 +86,22 @@ main > div:last-of-type > div {
     grid-template-columns: 1fr 1fr;
 }
 
-#cost > div p:nth-child(-n + 2) {
-    font-weight: bold;
-}
-
 #time > div {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#time > div p:nth-child(-n + 4) {
-    font-weight: bold;
-}
-
 #cost > div p,
-#time > div p {
+#cost > div h2,
+#time > div p,
+#time > div h2 {
     background-color: var(--background2);
     padding: 10px;
+}
+
+#scholarship div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width: 1000px) {
