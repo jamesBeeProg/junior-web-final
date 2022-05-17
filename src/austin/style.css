@@ -26,10 +26,14 @@
 
 .Information {
     grid-area: Information;
+    color: black;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 .Info {
     grid-area: Info;
+    color: black;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 .Image-2 {
