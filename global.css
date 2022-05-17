@@ -3,6 +3,7 @@
     --background: #141517;
     --background2: #25262b;
     --background3: #313338;
+    --background4: black;
 }
 
 * {
@@ -137,6 +138,12 @@ nav a:hover {
 
 main {
     margin-left: 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--background4);
+    padding: 20px;
 }
 
 @media (max-width: 1000px) {
