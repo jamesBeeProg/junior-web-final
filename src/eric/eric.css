@@ -74,6 +74,16 @@ article {
     border: black 5px solid;
     border-radius: 40px;
     background-color: #38393d;
+    box-shadow: 0px 6px 2px 3px black;
+}
+
+.endicott .information {
+    background-color: var(--EndicottGreen);
+}
+
+.fitchburg .information {
+    background-color: var(--FitchburgYellow);
+    color: black;
 }
 
 @media screen and (max-width: 1640px) {
