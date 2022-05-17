@@ -69,6 +69,35 @@ main > div:last-of-type > div {
     gap: 20px;
 }
 
+#cost > div,
+#time > div {
+    display: grid;
+    gap: 2px;
+    background-color: var(--background3);
+}
+
+#cost > div {
+    grid-template-columns: 1fr 1fr;
+}
+
+#cost > div p:nth-child(-n + 2) {
+    font-weight: bold;
+}
+
+#time > div {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#time > div p:nth-child(-n + 4) {
+    font-weight: bold;
+}
+
+#cost > div p,
+#time > div p {
+    background-color: var(--background2);
+    padding: 10px;
+}
+
 @media (max-width: 1000px) {
     main > div:last-of-type {
         padding: 10px;
