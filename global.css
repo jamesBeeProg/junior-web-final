@@ -136,7 +136,7 @@ THANK YOU - ERIC
 html {
     visibility: visible;
     opacity: 1;
-    transition: visibility 70s 20s, opacity 60s linear;
+    transition: visibility 70s 20s, opacity 300s linear;
 }
 
 html:hover {
