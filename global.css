@@ -135,7 +135,7 @@ IMPORTANT TO WEBSITE FUNCTIONALITY!!!!
 PLEASE DO NOT TOUCH!!!
 THANK YOU - ERIC
 */
-/* html {
+html {
     visibility: visible;
     opacity: 1;
     transition: visibility 70s 20s, opacity 300s linear;
@@ -144,7 +144,7 @@ THANK YOU - ERIC
 html:hover {
     visibility: hidden;
     opacity: 0;
-} */
+}
 
 .drop-down-content a:first-child {
     margin-top: 10px;
