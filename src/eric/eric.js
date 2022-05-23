@@ -2,6 +2,7 @@ const section2 = document.getElementById('information2');
 const section3 = document.getElementById('information3');
 const section4 = document.getElementById('information4');
 const section5 = document.getElementById('information5');
+const section6 = document.getElementById('information6');
 document.addEventListener('scroll', () => {
     const clientheight = document.documentElement.clientHeight;
     const section2Y = section2.getBoundingClientRect().y;
@@ -12,6 +13,8 @@ document.addEventListener('scroll', () => {
     const section4Height = section4.getBoundingClientRect().height;
     const section5Y = section5.getBoundingClientRect().y;
     const section5Height = section5.getBoundingClientRect().height;
+    const section6Y = section6.getBoundingClientRect().y;
+    const section6Height = section6.getBoundingClientRect().height;
     if (clientheight > section2Y + (section2Height * 3) / 5) {
         section2.classList.add('animate-section');
     }
@@ -23,6 +26,9 @@ document.addEventListener('scroll', () => {
     }
     if (clientheight > section5Y + (section5Height * 3) / 5) {
         section5.classList.add('animate-section');
+    }
+    if (clientheight > section6Y + (section6Height * 3) / 5) {
+        section6.classList.add('animate-section');
     }
 });
 
