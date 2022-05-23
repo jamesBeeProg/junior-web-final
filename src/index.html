@@ -8,6 +8,51 @@
     <title>Junior Web Final</title>
     <link rel="stylesheet" href="global.css" />
     <script src="main.js" defer></script>
+    <style>
+        section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        section div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(221, 184, 255);
+        }
+
+        @media screen and (max-width: 1600px) {
+            section {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            section {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            section {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -151,6 +196,88 @@
     </nav>
 
     <main>
+        <section>
+            <div>
+                <img src="images/fff.png" alt="Felipe">
+                <a href="">Fitchburg State</a>
+                <a href="">Umass Lowell</a>
+                <a href="">WPI</a>
+                <a href="">Squidward Community</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Wyatt">
+                <a href="">WPI</a>
+                <a href="">Umass Lowell</a>
+                <a href="">Boston University</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Eduardo">
+                <a href="">McDonalds</a>
+                <a href="">Bank Teller</a>
+                <a href="">Waiter</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Lucas">
+                <a href="">Boston University</a>
+                <a href="">Umass Amherst</a>
+                <a href="">Fitchburg State</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Eric">
+                <a href="">Endicott</a>
+                <a href="">Fitchburg State</a>
+                <a href="">WPI</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="James">
+                <a href="">NEIT</a>
+                <a href="">Quinsigamond Community</a>
+                <a href="">MIT</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Jaxan">
+                <a href="">Michigan State</a>
+                <a href="">Grand Valley</a>
+                <a href="">Rhode Island Uni</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Ryan G">
+                <a href="">WPI</a>
+                <a href="">Umass Amherst</a>
+                <a href="">Clark University</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Austin">
+                <a href="">IT Security</a>
+                <a href="">Software Engineer</a>
+                <a href="">Statistician</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Tye">
+                <a href="">Music Production</a>
+                <a href="">3D Modeling</a>
+                <a href="">Game Design</a>
+                <a href="">FROGS!</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Kyle S">
+                <a href="">Game Design</a>
+                <a href="">Cyber Security</a>
+                <a href="">RPA Pilot</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Leandro">
+                <a href="">Quinsigamond Community</a>
+                <a href="">Framingham State</a>
+                <a href="">Umass Lowell</a>
+            </div>
+            <div>
+                <img src="images/fff.png" alt="Shea">
+                <a href="">Westfield State</a>
+                <a href="">Roger Williams</a>
+                <a href="">Scranton Uni</a>
+            </div>
+        </section>
         <footer>
             &copy; 2022 Computer Programming and Web Development of Assabet Valley Regional Technical Highschool
         </footer>
