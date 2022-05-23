@@ -6,7 +6,10 @@
   display: grid;
   grid-template-columns: repeat(2, 4fr);
   width: 100%;
-  gap: 2vh;
+  gap: 1vh;
+}
+.wrapper img {
+  border-radius: 20px;
 }
 
 .title {
@@ -24,27 +27,13 @@
   width: 15vw;
 }
 
-.info1,
-.info2,
+.info,
 .image,
 footer {
-  margin: 10px;
-  padding: 15px;
-  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
   background-color: #25262b;
-}
-
-.info1 {
-  grid-area: span 2/span 2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.info1 .header {
-  grid-area: span 2/span 2;
-}
-
-.info2 {
-  grid-area: span 2/span 2;
 }
 
 .image {
@@ -61,6 +50,20 @@ footer {
 }
 .image p {
   width: 50%;
+}
+
+.majors,
+.tuition,
+.tour {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.majors img,
+.tuition img,
+.tour img {
+  width: 100%;
+  height: 100%;
 }
 
 footer {

@@ -56,6 +56,11 @@ article {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2em;
+    opacity: 0;
+}
+
+#first {
+    opacity: 1;
 }
 
 .whitespace {
@@ -94,6 +99,32 @@ article {
     color: black;
 }
 
+main a {
+    color: white;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.fitchburg a {
+    color: rgb(34, 34, 156);
+}
+
+main a:hover {
+    background-color: white;
+}
+
+.fitchburg a:hover {
+    color: var(--FitchburgGreen);
+}
+
+.wpi a:hover {
+    color: var(--WPIRed);
+}
+
+.endicott a:hover {
+    color: var(--EndicottBlue);
+}
+
 p {
     padding: 0.2em;
 }
@@ -104,6 +135,24 @@ h2 {
 
 h3 {
     padding: 0.3em;
+}
+
+.animate-section {
+    animation: animate-section 2s forwards;
+}
+
+.specialItem {
+    width: 100%;
+}
+
+@keyframes animate-section {
+    100% {
+        opacity: 1;
+    }
+}
+
+#information6 {
+    margin-bottom: 3.25vw;
 }
 
 @media screen and (max-width: 1640px) {
