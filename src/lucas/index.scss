@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2, 4fr);
     width: 100%;
-    gap: 2vh;
+    gap: 1vh;
     img {
         border-radius: 20px;
     }
@@ -31,7 +31,7 @@
 .info,
 .image,
 footer {
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     border-radius: 20px;
     background-color: #25262b;
@@ -54,7 +54,8 @@ footer {
     }
 }
 
-.majors {
+.majors,
+.tuition {
     display: flex;
     flex-direction: column;
     gap: 20px;
