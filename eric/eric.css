@@ -54,8 +54,12 @@ article {
     padding: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 1.2em;
+}
+
+.whitespace {
+    height: 7.5vw;
 }
 
 .item {
@@ -63,6 +67,7 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60%;
 }
 
 .section > img {
@@ -87,6 +92,18 @@ article {
 .fitchburg .information {
     background-color: var(--FitchburgYellow);
     color: black;
+}
+
+p {
+    padding: 0.2em;
+}
+
+h2 {
+    padding: 0.4em;
+}
+
+h3 {
+    padding: 0.3em;
 }
 
 @media screen and (max-width: 1640px) {
