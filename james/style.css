@@ -20,15 +20,18 @@ header {
 }
 
 header > div {
-    background: var(--background3);
     padding: 1em;
+}
+
+header > div,
+header > a {
+    background: var(--background3);
     border-radius: var(--radius);
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
 }
 
 header > a {
-    display: block;
-    font-size: 5em;
+    font-size: 4em;
     margin: 1em;
 
     color: white;
