@@ -26,11 +26,20 @@
 
 .info1,
 .info2,
+.image,
 footer {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
   background-color: #25262b;
 }
 
 .info1 {
+  grid-area: span 2/span 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.info1 .header {
   grid-area: span 2/span 2;
 }
 
@@ -40,6 +49,18 @@ footer {
 
 .image {
   grid-area: span 2/span 2;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 20px;
+}
+.image img {
+  width: 50%;
+  height: 100%;
+}
+.image p {
+  width: 50%;
 }
 
 footer {
