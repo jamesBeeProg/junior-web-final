@@ -56,6 +56,11 @@ article {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2em;
+    opacity: 0;
+}
+
+#first {
+    opacity: 1;
 }
 
 .whitespace {
@@ -104,6 +109,16 @@ h2 {
 
 h3 {
     padding: 0.3em;
+}
+
+.animate-section {
+    animation: animate-section 2s forwards;
+}
+
+@keyframes animate-section {
+    100% {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1640px) {

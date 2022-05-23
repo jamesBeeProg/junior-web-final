@@ -21,6 +21,10 @@ article {
     margin-left: 7em;
 }
 
+footer {
+    color: white;
+}
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 170%;
@@ -52,7 +56,6 @@ li {
         "left mid right";
     grid-area: center;
     margin-left: 5em;
-    margin-right: -1em;
 }
 
 .left {
