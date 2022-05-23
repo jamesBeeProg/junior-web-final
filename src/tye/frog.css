@@ -21,6 +21,10 @@ article {
     margin-left: 7em;
 }
 
+footer {
+    color: white;
+}
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 170%;
