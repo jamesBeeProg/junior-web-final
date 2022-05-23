@@ -7,6 +7,9 @@
     grid-template-columns: repeat(2, 4fr);
     width: 100%;
     gap: 2vh;
+    img {
+        border-radius: 20px;
+    }
 }
 
 .title {
@@ -25,28 +28,13 @@
     }
 }
 
-.info1,
-.info2,
+.info,
 .image,
 footer {
     margin: 10px;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 20px;
     background-color: #25262b;
-}
-
-.info1 {
-    grid-area: span 2 / span 2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    .header {
-        grid-area: span 2 / span 2;
-    }
-}
-
-.info2 {
-    grid-area: span 2 / span 2;
 }
 
 .image {
@@ -63,6 +51,16 @@ footer {
     }
     p {
         width: 50%;
+    }
+}
+
+.majors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 
