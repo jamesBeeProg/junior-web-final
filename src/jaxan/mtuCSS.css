@@ -1,0 +1,109 @@
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('MTU.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*text box's */
+.Forward_tab {
+    /* total size */
+    height: 400px;
+    width: 100%;
+
+    -webkit-box-shadow: 0px 23px 29px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 23px 29px 6px rgba(45, 45, 48, 0.75);
+
+    margin-bottom: 30vh;
+    background-color: #cfc66b;
+}
+
+.Top {
+    margin-bottom: 40px;
+}
+
+/*cropped images */
+.cropped1 {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    /* border: 0px solid black; */
+}
+
+.cropped1 img {
+    margin: 0px 0px 0px -180px;
+}
+
+/*cropped images */
+.cropped2 {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    /* border: 0px solid black; */
+}
+
+.cropped2 img {
+    margin: 0px 0px 0px 0px;
+}
+
+/* flex box */
+.flex-container {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container > div {
+    /*background-color: #f1f1f1; */
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*main web page style*/
+body {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 56px;
+    color: white;
+}
+
+line {
+    color: #00000000;
+    font-size: 0px;
+    border-color: #1a1913;
+    border-style: solid;
+    border-left-width: 700px;
+    border-right-width: 700px;
+    border-bottom-width: 10px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#g {
+    width: 600px;
+    margin-top: 20px;
+}

@@ -48,6 +48,10 @@ p {
     font-size: 18px;
 }
 
+section a {
+    color: var(--foreground);
+}
+
 section img {
     border-radius: 6px;
     width: 30%;
