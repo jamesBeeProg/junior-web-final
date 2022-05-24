@@ -130,22 +130,6 @@ nav a:hover {
     overflow: hidden;
 }
 
-/*
-IMPORTANT TO WEBSITE FUNCTIONALITY!!!!
-PLEASE DO NOT TOUCH!!!
-THANK YOU - ERIC
-*/
-html {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 70s 20s, opacity 300s linear;
-}
-
-html:hover {
-    visibility: hidden;
-    opacity: 0;
-}
-
 .drop-down-content a:first-child {
     margin-top: 10px;
 }
