@@ -1,4 +1,16 @@
 :root {
+    --foreground: white;
+    --background: #141517;
+    --background2: #25262b;
+    --background3: #313338;
+    --background4: black;
+}
+
+nav img {
+    filter: invert();
+}
+
+:root {
     --radius: 20px;
 }
 
@@ -66,4 +78,8 @@ section.overview > img {
 .row-container {
     display: flex;
     align-items: stretch;
+}
+
+.row-container > * {
+    flex: 1 1 0px;
 }
