@@ -1,9 +1,23 @@
 :root {
-    --foreground: white;
-    --background: #141517;
-    --background2: #25262b;
-    --background3: #313338;
-    --background4: black;
+    --foreground: black;
+    --background: white;
+    --background2: #f8f9fa;
+    --background3: #eff0f3;
+    --background4: #f8f9fa;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground: white;
+        --background: #141517;
+        --background2: #25262b;
+        --background3: #313338;
+        --background4: black;
+    }
+
+    nav img {
+        filter: invert();
+    }
 }
 
 * {
