@@ -18,6 +18,10 @@
     nav img {
         filter: invert();
     }
+
+    #burger {
+        filter: invert();
+    }
 }
 
 * {
