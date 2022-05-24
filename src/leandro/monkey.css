@@ -2,8 +2,9 @@
     --QCCBlue: #0883b8;
     --QCCBlue2: #1245a8;
     --QCCWhite: #ffffff;
-    --ulowellEndicottGreen: #014935;
-    --ulowellEndicottBlue: #002d52;
+    --UlowellRed: #dc143c;
+    --UlowellBlue: #00008b;
+    --UlowellWhite: #ffffff;
     --FSUGold: #d4af37;
 }
 
@@ -37,8 +38,8 @@ article {
     flex-direction: column;
 }
 
-.endicott {
-    background-color: var(--EndicottBlue);
+.ulowell {
+    background-color: var(--UlowellRed);
 }
 
 .quinsigamond {
@@ -86,8 +87,8 @@ article {
     box-shadow: 0px 6px 2px 3px black;
 }
 
-.endicott .information {
-    background-color: var(--EndicottGreen);
+.ulowell .information {
+    background-color: var(--UlowellBlue);
 }
 
 .quinsigamond .information {
