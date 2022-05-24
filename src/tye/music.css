@@ -1,6 +1,6 @@
 body {
     background-color: #3d303a;
-    color: #e3e3e3;
+    color: honeydew;
 }
 
 .container {
@@ -30,4 +30,13 @@ body {
 
 .header_right {
     grid-area: header_right;
+}
+
+a {
+    text-decoration: underline;
+    color: honeydew;
+}
+
+p {
+    padding-top: 1.25em;
 }
