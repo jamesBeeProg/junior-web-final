@@ -1,9 +1,23 @@
 :root {
-    --foreground: white;
-    --background: #141517;
-    --background2: #25262b;
-    --background3: #313338;
-    --background4: black;
+    --foreground: black;
+    --background: white;
+    --background2: #f8f9fa;
+    --background3: #eff0f3;
+    --background4: #f8f9fa;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground: white;
+        --background: #141517;
+        --background2: #25262b;
+        --background3: #313338;
+        --background4: black;
+    }
+
+    nav img {
+        filter: invert();
+    }
 }
 
 * {
@@ -128,22 +142,6 @@ nav a:hover {
     max-height: 0;
     transition: max-height 0.25s;
     overflow: hidden;
-}
-
-/*
-IMPORTANT TO WEBSITE FUNCTIONALITY!!!!
-PLEASE DO NOT TOUCH!!!
-THANK YOU - ERIC
-*/
-html {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 70s 20s, opacity 300s linear;
-}
-
-html:hover {
-    visibility: hidden;
-    opacity: 0;
 }
 
 .drop-down-content a:first-child {

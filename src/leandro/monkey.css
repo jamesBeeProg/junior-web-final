@@ -3,7 +3,7 @@
     --QCCBlue2: #1245a8;
     --QCCWhite: #ffffff;
     --ulowellEndicottGreen: #014935;
-    --EndicottBlue: #002d52;
+    --ulowellEndicottBlue: #002d52;
     --FSUGold: #d4af37;
 }
 
@@ -92,7 +92,7 @@ article {
 
 .quinsigamond .information {
     background-color: var(--QCCBlue);
-    color: #fbf6ed;
+    color: var(--QCCWhite);
 }
 
 p {
