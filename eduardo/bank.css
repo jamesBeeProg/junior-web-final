@@ -14,12 +14,23 @@ body {
 .content {
     margin-left: 10em;
     margin-right: 10em;
-    margin-top: 15em;
+    margin-top: 4em;
+    margin-bottom: 2em;
     border-style: solid;
     border-color: black;
     border-width: 3px;
     padding: 0.5em;
     background-color: darkgray;
+}
+
+.image {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.imageSize {
+    width: 40em;
 }
 
 footer {
