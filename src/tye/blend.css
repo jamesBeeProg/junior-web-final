@@ -1,9 +1,9 @@
 body {
     background-color: #7a98c5;
+    text-align: center;
 }
 
 .banner {
-    text-align: center;
     color: black;
     padding-top: 2em;
     padding-bottom: 2.5em;
@@ -16,7 +16,21 @@ body {
     border-left-width: 0;
 }
 
-.content {
+.start {
     color: black;
-    padding: 3em;
+}
+
+.imgDys {
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: .75em;
+}
+
+.leftSide {
+    color: black;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
