@@ -66,6 +66,19 @@ footer {
     }
 }
 
+.table {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+
+    .row1,
+    .row2 {
+        margin-top: 20px;
+        padding: 10px;
+        border-bottom: #4a4c53 solid 1px;
+    }
+}
+
 footer {
     grid-area: span 2 / span 2;
 }

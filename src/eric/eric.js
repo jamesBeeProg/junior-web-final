@@ -15,20 +15,45 @@ document.addEventListener('scroll', () => {
     const section5Height = section5.getBoundingClientRect().height;
     const section6Y = section6.getBoundingClientRect().y;
     const section6Height = section6.getBoundingClientRect().height;
-    if (clientheight > section2Y + (section2Height * 3) / 5) {
-        section2.classList.add('animate-section');
+    if (clientheight > section2Y + (section2Height * 2.5) / 5) {
+        section2.style.opacity = 1;
+    } else {
+        section2.style.opacity = 0;
     }
-    if (clientheight > section3Y + (section3Height * 3) / 5) {
-        section3.classList.add('animate-section');
+    if (clientheight > section2Y + section2Height * 2.5) {
+        section2.style.opacity = 0;
     }
-    if (clientheight > section4Y + (section4Height * 3) / 5) {
-        section4.classList.add('animate-section');
+    if (clientheight > section3Y + (section3Height * 2.5) / 5) {
+        section3.style.opacity = 1;
+    } else {
+        section3.style.opacity = 0;
     }
-    if (clientheight > section5Y + (section5Height * 3) / 5) {
-        section5.classList.add('animate-section');
+    if (clientheight > section3Y + section3Height * 2.5) {
+        section3.style.opacity = 0;
     }
-    if (clientheight > section6Y + (section6Height * 3) / 5) {
-        section6.classList.add('animate-section');
+    if (clientheight > section4Y + (section4Height * 2.5) / 5) {
+        section4.style.opacity = 1;
+    } else {
+        section4.style.opacity = 0;
+    }
+    if (clientheight > section4Y + section4Height * 2.5) {
+        section4.style.opacity = 0;
+    }
+    if (clientheight > section5Y + (section5Height * 2.5) / 5) {
+        section5.style.opacity = 1;
+    } else {
+        section5.style.opacity = 0;
+    }
+    if (clientheight > section5Y + section5Height * 2.5) {
+        section5.style.opacity = 0;
+    }
+    if (clientheight > section6Y + (section6Height * 2.5) / 5) {
+        section6.style.opacity = 1;
+    } else {
+        section6.style.opacity = 0;
+    }
+    if (clientheight > section6Y + section6Height * 2.5) {
+        section6.style.opacity = 0;
     }
 });
 
