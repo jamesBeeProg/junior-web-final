@@ -1,0 +1,22 @@
+body {
+    background-color: #7a98c5;
+}
+
+.banner {
+    text-align: center;
+    color: black;
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+    background-color: #5076ad;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: .25em;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.content {
+    color: black;
+    padding: 3em;
+}
