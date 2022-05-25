@@ -69,3 +69,19 @@ li {
 .right {
     grid-area: right;
 }
+
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom2 {
+    transition: transform .5s;
+}
+
+.zoom2:hover {
+    transform: scale(1.3);
+}

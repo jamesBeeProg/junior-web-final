@@ -1,8 +1,8 @@
 :root {
-    --FitchburgGreen: #00563f;
-    --FitchburgYellow: #ccb030;
-    --EndicottGreen: #014935;
-    --EndicottBlue: #002d52;
+    --BostonUniGrey: #24292e;
+    --BostonUniRed: #cc0000;
+    --UmassLowellWhite: #ffffff;
+    --UmassLowellBlue: #0469b1;
     --WPIRed: #ac2b37;
 }
 
@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(133, 167, 206);
+    background-color: rgb(255, 255, 255);
 }
 
 header > img {
@@ -36,12 +36,12 @@ article {
     flex-direction: column;
 }
 
-.endicott {
-    background-color: var(--EndicottBlue);
+.umasslowell {
+    background-color: var(--UmassLowellBlue);
 }
 
-.fitchburg {
-    background-color: var(--FitchburgGreen);
+.bostonuni {
+    background-color: var(--BostonUniGrey);
 }
 
 .wpi {
@@ -56,12 +56,6 @@ article {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2em;
-    opacity: 0;
-    transition: opacity 1.2s;
-}
-
-#first {
-    opacity: 1;
 }
 
 .whitespace {
@@ -91,40 +85,14 @@ article {
     box-shadow: 0px 6px 2px 3px black;
 }
 
-.endicott .information {
-    background-color: var(--EndicottGreen);
+.bostonuni .information {
+    background-color: var(--BostonUniRed);
 }
 
-.fitchburg .information {
-    background-color: var(--FitchburgYellow);
+/* .umasslowell .information {
+    background-color: var(--UmassLowellWhite);
     color: black;
-}
-
-main a {
-    color: white;
-    border-radius: 12px;
-    padding: 4px;
-}
-
-.fitchburg a {
-    color: rgb(34, 34, 156);
-}
-
-main a:hover {
-    background-color: white;
-}
-
-.fitchburg a:hover {
-    color: var(--FitchburgGreen);
-}
-
-.wpi a:hover {
-    color: var(--WPIRed);
-}
-
-.endicott a:hover {
-    color: var(--EndicottBlue);
-}
+} */
 
 p {
     padding: 0.2em;
@@ -136,19 +104,6 @@ h2 {
 
 h3 {
     padding: 0.3em;
-}
-
-.specialItem {
-    width: 100%;
-}
-
-#information6 {
-    margin-bottom: 3.25vw;
-}
-
-#specialPara {
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 @media screen and (max-width: 1640px) {

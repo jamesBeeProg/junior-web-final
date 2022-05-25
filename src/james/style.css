@@ -1,16 +1,4 @@
 :root {
-    --foreground: white;
-    --background: #141517;
-    --background2: #25262b;
-    --background3: #313338;
-    --background4: black;
-}
-
-nav img {
-    filter: invert();
-}
-
-:root {
     --radius: 20px;
 }
 
@@ -82,4 +70,28 @@ section.overview > img {
 
 .row-container > * {
     flex: 1 1 0px;
+}
+
+.table {
+    display: grid;
+    gap: 2px;
+    background-color: var(--background2);
+}
+
+.table > h2 {
+    font-size: 1rem;
+}
+
+.table > * {
+    background-color: var(--background3);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.timeline {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.costs {
+    grid-template-columns: 1fr 1fr;
 }
