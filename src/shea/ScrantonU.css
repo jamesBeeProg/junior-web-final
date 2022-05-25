@@ -49,7 +49,7 @@ body {
     border-radius: 10px;
     background: #7a8392;
     padding: 10px;
-    width: 300px;
+    width: 500px;
     height: 70px;
 }
 
@@ -66,13 +66,21 @@ body {
     background: #a1a5b0;
     padding: 20px;
     width: 200px;
-    height: 50px;
+    height: 80px;
 }
 
 #rcorners4 {
     border-radius: 25px;
     background: #d4c2b4;
+    padding: 25px;
+    width: 500px;
+    height: 80px;
+}
+
+#rcorners5 {
+    border-radius: 25px;
+    background: #d4c2a4;
     padding: 20px;
     width: 500px;
-    height: 50px;
+    height: 70px;
 }
