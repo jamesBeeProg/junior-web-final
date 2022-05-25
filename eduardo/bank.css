@@ -1,0 +1,32 @@
+body {
+    background-color: #6b6b6b;
+    color: black;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoImg {
+    width: 20em;
+}
+
+.content {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 15em;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 0.5em;
+    background-color: darkgray;
+}
+
+footer {
+    color: white;
+}
+
+p,
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
