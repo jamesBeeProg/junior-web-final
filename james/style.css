@@ -71,3 +71,26 @@ section.overview > img {
 .row-container > * {
     flex: 1 1 0px;
 }
+
+.table {
+    display: grid;
+    gap: 2px;
+    background-color: var(--background2);
+}
+
+.table > h2 {
+    font-size: 1rem;
+}
+
+.table > * {
+    background-color: var(--background3);
+    padding: 0.5em;
+}
+
+.timeline {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.costs {
+    grid-template-columns: 1fr 1fr;
+}
