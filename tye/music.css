@@ -3,6 +3,7 @@ body {
     color: honeydew;
 }
 
+/*Grid*/
 .container {
     display: grid;
     grid-template-columns: 1.7fr 0.6fr;
@@ -30,17 +31,13 @@ body {
     grid-area: header_right;
 }
 
+/*Text Related*/
 a {
     text-decoration: underline;
     color: honeydew;
 }
 
-h1 {
-    padding-bottom: 1em;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h2 {
+h1, h2 {
     padding-bottom: 1em;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -49,6 +46,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*Image*/
 .fullImg {
     width: 100%;
     margin-top: 1em;
@@ -57,4 +55,3 @@ p {
     border-width: 1px;
     border-color: honeydew;
 }
-

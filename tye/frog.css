@@ -48,6 +48,7 @@ li {
     border-color: black;
 }
 
+/*Grid*/
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -70,6 +71,7 @@ li {
     grid-area: right;
 }
 
+/*Hover Effects*/
 .zoom {
     transition: transform .5s;
 }
