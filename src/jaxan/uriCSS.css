@@ -5,7 +5,7 @@ html {
 
 .parallax {
     /* The image used */
-    background-image: url('MTU.jpg');
+    background-image: url('uri.png');
 
     /* Full height */
     height: 100%;
@@ -23,13 +23,13 @@ html {
     height: 400px;
     border-radius: 20px;
     margin: 20px;
-    border: #f5de0c;
+    border: #1d4e8a;
 
     -webkit-box-shadow: 0px 23px 29px 6px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 23px 29px 6px rgba(45, 45, 48, 0.75);
 
     margin-bottom: 30vh;
-    background-color: #cfc66b;
+    background-color: #517096;
 }
 
 .Top {
@@ -45,7 +45,7 @@ html {
 }
 
 .cropped1 img {
-    margin: 0px 0px 0px -180px;
+    margin: 0px 0px 0px -208px;
 }
 
 /*cropped images */
@@ -92,9 +92,9 @@ h1 {
 }
 
 line {
-    color: #00000000;
+    color: #061324;
     font-size: 0px;
-    border-color: #1a1913;
+    border-color: #061324;
     border-style: solid;
     border-left-width: 700px;
     border-right-width: 700px;
@@ -111,9 +111,9 @@ h2 {
 }
 
 #p {
-    width: 360px;
+    width: 400px;
 }
 
 #h {
-    width: 700px;
+    width: 500px;
 }
