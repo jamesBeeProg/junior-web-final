@@ -8,8 +8,68 @@
     <title>Roger Williams</title>
     <link rel="stylesheet" href="../global.css" />
     <link rel="stylesheet" href="RogerW.css">
-    <script src="../main.js" defer>
+    <script src="../main.js" defer></script>
+
+    <!--The single most obnoxus thing ive ever made in html-->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000);
+        }
     </script>
+    <!--^Even I am confused as to how i did that^-->
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -215,115 +275,49 @@
 
                 <h1 style=font-size:20>Roger Williams University</h1>
 
-                <body>
-
-                </body>
             </div>
 
             <div class="text1">
                 <!--Here goes nothing...-->
+                <!--This sucked to make, used w3schools and afew other websites to try to peice together this-->
+                <div class="slideshow-container">
 
-                <style>
-                    * {
-                        box-sizing: border-box;
-                    }
+                    <div class="mySlides fade">
+                        <img src="Pics/chart-grants-by-source.png" style="width:100%" height="500">
+                    </div>
+                    <br>
 
-                    body {
-                        font-family: Verdana, sans-serif;
-                    }
-
-                    .mySlides {
-                        display: none;
-                    }
-
-                    img {
-                        vertical-align: middle;
-                    }
-
-                    /* Slideshow container */
-                    .slideshow-container {
-                        max-width: 1000px;
-                        position: relative;
-                        margin: auto;
-                    }
-
-                    .active {
-                        background-color: #717171;
-                    }
-
-
-                    /* On smaller screens, decrease text size */
-                    @media only screen and (max-width: 300px) {
-                        .text {
-                            font-size: 11px
-                        }
-                    }
-                </style>
-                </head>
-
-                <body>
-
-                    <!--This sucked to make, used w3schools and afew other websites to try to peice together this-->
-                    <div class="slideshow-container">
-
-                        <div class="mySlides fade">
-                            <img src="Pics/chart-grants-by-source.png" style="width:100%" height="500">
-                        </div>
-                        <br>
-
-                        <div class="mySlides fade">
-                            <img src="Pics/RWULogo.jfif" style="width:100%" height="500">
-                        </div>
-
-                        <div class="mySlides fade">
-                            <img src="Pics/RWUImg2.png" style="width:100%" height="500">
-                        </div>
-
-                        <div style="text-align:center">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-
-                        <!--The single most obnoxus thing ive ever made in html-->
-                        <script>
-                            let slideIndex = 0;
-                            showSlides();
-                            function showSlides() {
-                                let i;
-                                let slides = document.getElementsByClassName("mySlides");
-                                let dots = document.getElementsByClassName("dot");
-                                for (i = 0; i < slides.length; i++) {
-                                    slides[i].style.display = "none";
-                                }
-                                slideIndex++;
-                                if (slideIndex > slides.length) { slideIndex = 1 }
-                                for (i = 0; i < dots.length; i++) {
-                                    dots[i].className = dots[i].className.replace(" active", "");
-                                }
-                                slides[slideIndex - 1].style.display = "block";
-                                dots[slideIndex - 1].className += " active";
-                                setTimeout(showSlides, 5000);
-                            }
-                        </script>
-                        <!--^Even I am confused as to how i did that^-->
+                    <div class="mySlides fade">
+                        <img src="Pics/RWULogo.jfif" style="width:100%" height="500">
                     </div>
 
-
-                    <div class="text2">
-                        <h> Majors and Minors at Roger Williams University</h>
-                        <p>
-                            -Major in Criminal Justice<br>
-                            -Major in Forensic Science<br>
-                            -Major in International Relations<br>
-                            -Major in Political Science<br>
-                            -Major in Psychology<br>
-                            -Minor in Business<br>
-                            -Minor in Digital Forensics<br>
-                            -Minor in Military Science<br>
-                        </p>
+                    <div class="mySlides fade">
+                        <img src="Pics/RWUImg2.png" style="width:100%" height="500">
                     </div>
-                </body>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+
+                </div>
+
+
+                <div class="text2">
+                    <h> Majors and Minors at Roger Williams University</h>
+                    <p>
+                        -Major in Criminal Justice<br>
+                        -Major in Forensic Science<br>
+                        -Major in International Relations<br>
+                        -Major in Political Science<br>
+                        -Major in Psychology<br>
+                        -Minor in Business<br>
+                        -Minor in Digital Forensics<br>
+                        -Minor in Military Science<br>
+                    </p>
+                </div>
+
             </div>
 
             <!--Footer Below Here-->
