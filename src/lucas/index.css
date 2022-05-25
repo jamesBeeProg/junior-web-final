@@ -31,7 +31,7 @@
 .image,
 footer {
   margin: 20px;
-  padding: 20px;
+  padding: 25px;
   border-radius: 20px;
   background-color: #25262b;
 }
@@ -80,6 +80,10 @@ footer {
 
 footer {
   grid-area: span 2/span 2;
+}
+
+img:hover {
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 768px) {

@@ -108,6 +108,14 @@ h3 {
     padding: 0.3em;
 }
 
+.specialItem {
+    width: 100%;
+}
+
+#information6 {
+    margin-bottom: 3.25vw;
+}
+
 @media screen and (max-width: 1640px) {
     .section {
         font-size: 1.05em;
