@@ -1,3 +1,9 @@
+/*****************************************************
+ * CSS File for Eric Edwards' College Pages
+ * 5/25/2022
+ *By: Eric Edwards
+ *****************************************************/
+/* Variables for background colors related to the specific colleges. */
 :root {
     --FitchburgGreen: #00563f;
     --FitchburgYellow: #ccb030;
@@ -11,6 +17,7 @@ main {
     flex-direction: column;
 }
 
+/* Banner and Footer items, with colors and content positioning */
 header {
     display: flex;
     align-items: center;
@@ -28,14 +35,15 @@ footer {
     background-color: rgb(8, 8, 8);
 }
 
-/*
+/*****************************************************
 Article CSS, both the container and all the sections within
-*/
+*****************************************************/
 article {
     display: flex;
     flex-direction: column;
 }
 
+/* The 3 college classes to set the page's background color to main */
 .endicott {
     background-color: var(--EndicottBlue);
 }
@@ -48,6 +56,8 @@ article {
     background-color: var(--WPIRed);
 }
 
+/* Style for each section, both the whitespace and informational sections. Spacing and Positioning
+ * Includes the transition used by the JavaScript File, giving it the time to transition.*/
 .section {
     width: 98%;
     margin: 1%;
@@ -60,6 +70,7 @@ article {
     transition: opacity 1.2s;
 }
 
+/* The First section is always visible. I just decided that I wanted it to always be there. */
 #first {
     opacity: 1;
 }
@@ -76,6 +87,7 @@ article {
     width: 60%;
 }
 
+/* Images will stay in the correct aspect ratio, and height is locked to ensure that the images adhere to the aspect ratio. */
 .section > img {
     width: 40%;
     height: max-content;
@@ -88,9 +100,10 @@ article {
     border: black 5px solid;
     border-radius: 40px;
     background-color: #38393d;
-    box-shadow: 0px 6px 2px 3px black;
+    box-shadow: 0px 6px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
+/* specifies section colors for endicott and fitchburg as they have a 2nd color that can be utilized, unlike WPI. */
 .endicott .information {
     background-color: var(--EndicottGreen);
 }
@@ -100,6 +113,7 @@ article {
     color: black;
 }
 
+/* Link Styling, to make it easy to know when you are clicking on a link. */
 main a {
     color: white;
     border-radius: 12px;
@@ -138,6 +152,7 @@ h3 {
     padding: 0.3em;
 }
 
+/* Special css for specific cases, like the last section needing bottom margin, padding needed on specific paragraphs. Didn't have a specific section. */
 .specialItem {
     width: 100%;
 }
@@ -151,6 +166,11 @@ h3 {
     padding-bottom: 15px;
 }
 
+/*****************************************************
+ * Responsiveness for the Website. Includes Mobile, Tablet, Laptop, and Desktop.
+ * Anything larger than a small monitor will have the base style.
+ *****************************************************/
+/* Desktop Responsiveness (smaller monitors) */
 @media screen and (max-width: 1640px) {
     .section {
         font-size: 1.05em;
@@ -166,6 +186,7 @@ h3 {
     }
 }
 
+/* Laptop Responsiveness */
 @media screen and (max-width: 1300px) {
     .section {
         flex-direction: column;
@@ -181,6 +202,7 @@ h3 {
     }
 }
 
+/* Tablet Responsiveness */
 @media screen and (max-width: 1000px) {
     .section {
         font-size: 1em;
@@ -191,6 +213,7 @@ h3 {
     }
 }
 
+/* Mobile Responsiveness */
 @media screen and (max-width: 700px) {
     .section {
         font-size: 0.95em;
