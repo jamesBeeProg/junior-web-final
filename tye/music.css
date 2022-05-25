@@ -6,9 +6,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1.7fr 0.6fr;
-    grid-template-rows: 0.4fr 1.6fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+    grid-template-rows: 0.1fr 0.1fr;
     grid-template-areas:
         'header_mid header_left'
         'body_mid header_right';
@@ -21,7 +19,7 @@ body {
 
 .body_mid {
     grid-area: body_mid;
-    margin-top: 5%;
+    margin-top: 0;
 }
 
 .header_left {
@@ -37,6 +35,23 @@ a {
     color: honeydew;
 }
 
-p {
-    padding-top: 1.25em;
+h1 {
+    padding-bottom: 1em;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+h2 {
+    padding-bottom: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fullImg {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: .75em;
+}
+
