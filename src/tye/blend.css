@@ -18,11 +18,10 @@ body {
 
 .start {
     color: black;
-    margin-left: 3em;
 }
 
 .imgDys {
-    width: 60em;
+    width: 75%;
     margin-top: 1em;
     margin-bottom: .75em;
 }
@@ -30,8 +29,8 @@ body {
 .leftSide {
     color: black;
     text-align: left;
-    padding-left: 20em;
-    padding-right: 20em;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 1em;
     padding-bottom: 2em;
 }
