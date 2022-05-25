@@ -3,12 +3,11 @@ body {
     color: honeydew;
 }
 
+/*Grid*/
 .container {
     display: grid;
     grid-template-columns: 1.7fr 0.6fr;
-    grid-template-rows: 0.4fr 1.6fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+    grid-template-rows: 0.1fr 0.1fr;
     grid-template-areas:
         'header_mid header_left'
         'body_mid header_right';
@@ -21,7 +20,7 @@ body {
 
 .body_mid {
     grid-area: body_mid;
-    margin-top: 5%;
+    margin-top: 0;
 }
 
 .header_left {
@@ -32,11 +31,27 @@ body {
     grid-area: header_right;
 }
 
+/*Text Related*/
 a {
     text-decoration: underline;
     color: honeydew;
 }
 
+h1, h2 {
+    padding-bottom: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 p {
-    padding-top: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Image*/
+.fullImg {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: .75em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: honeydew;
 }

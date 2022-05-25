@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.7fr 1.6fr 0.7fr;
+    grid-template-rows: 0.4fr 2.3fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        'Side2 Header Side1'
+        'Side2 text1 Side1'
+        'Side2 text2 Side1';
+}
+
+.Side1 {
+    grid-area: Side1;
+    text-align: center;
+    padding: 20px;
+}
+
+.Side2 {
+    grid-area: Side2;
+    text-align: center;
+    padding: 20px;
+}
+
+.Header {
+    grid-area: Header;
+    background-color: #7a7b7f;
+    text-align: center;
+    padding: 20px;
+}
+
+.text1 {
+    grid-area: text1;
+    text-align: left;
+    padding: 20px;
+}
+
+.text2 {
+    grid-area: text2;
+    background-color: #7a7b7f;
+    text-align: center;
+    padding: 20px;
+}
