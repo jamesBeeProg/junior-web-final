@@ -1,0 +1,157 @@
+:root {
+    --BostonUniGrey: #24292e;
+    --BostonUniRed: #cc0000;
+    --UmassLowellWhite: #ffffff;
+    --UmassLowellBlue: #0469b1;
+    --WPIRed: #ac2b37;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header > img {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+}
+
+/*
+Article CSS, both the container and all the sections within
+*/
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.umasslowell {
+    background-color: var(--UmassLowellBlue);
+}
+
+.bostonuni {
+    background-color: var(--BostonUniGrey);
+}
+
+.wpi {
+    background-color: var(--WPIRed);
+}
+
+.section {
+    width: 98%;
+    margin: 1%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.whitespace {
+    height: 4.5vw;
+}
+
+.item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.section > img {
+    width: 40%;
+    height: max-content;
+    border-radius: 5px;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+
+.information {
+    border: black 5px solid;
+    border-radius: 40px;
+    background-color: #38393d;
+    box-shadow: 0px 6px 2px 3px black;
+}
+
+.bostonuni .information {
+    background-color: var(--BostonUniRed);
+}
+
+/* .umasslowell .information {
+    background-color: var(--UmassLowellWhite);
+    color: black;
+} */
+
+p {
+    padding: 0.2em;
+}
+
+h2 {
+    padding: 0.4em;
+}
+
+h3 {
+    padding: 0.3em;
+}
+
+@media screen and (max-width: 1640px) {
+    .section {
+        font-size: 1.05em;
+    }
+
+    .section > img {
+        width: 50%;
+        height: max-content;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .section > img {
+        width: 70%;
+        height: max-content;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section {
+        font-size: 1em;
+    }
+
+    .section > img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section {
+        font-size: 0.95em;
+    }
+
+    .section > img {
+        width: 100%;
+    }
+}

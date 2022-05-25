@@ -10,6 +10,7 @@
         'Footer Footer';
 }
 
+/* Displays the header in a flex, aligns all aspects of the header to the center, sets its height to auto, sets its max width to 100 percent */
 header {
     display: flex;
     align-items: center;
@@ -18,11 +19,13 @@ header {
     height: auto;
 }
 
+/* Any image files placed inside the header will automatically be displayed with a set height of 400 pixels and a width of 100 percent */
 header > img {
     height: 400px;
     width: 100%;
 }
 
+/* Displays the Article in a flex, creates a solid rounded border for the Article, displays a background color of Wheat for the Article, and displays no box shadow */
 article {
     display: flex;
     flex-direction: column;
@@ -37,6 +40,7 @@ article {
     grid-area: Image;
 }
 
+/* Displays the text in both the Information and Info containers with the color black and sets the font to Comic Sans MS */
 .Information {
     grid-area: Information;
     color: black;

@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+    color: darkgray;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoImg {
+    margin-top: 1em;
+    width: 20em;
+}
+
+.content {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 3px;
+    padding: 0.5em;
+    background-color: black;
+}
+
+.image {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.imageSize {
+    width: 40em;
+}
+
+footer {
+    color: white;
+}
+
+p,
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}

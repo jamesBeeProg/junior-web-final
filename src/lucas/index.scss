@@ -2,6 +2,7 @@
     --background3: #313338;
 }
 
+// Grid
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 4fr);
@@ -32,7 +33,7 @@
 .image,
 footer {
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
     background-color: #25262b;
 }
@@ -66,6 +67,7 @@ footer {
     }
 }
 
+// Used to style table
 .table {
     display: grid;
     list-style: none;
@@ -81,6 +83,10 @@ footer {
 
 footer {
     grid-area: span 2 / span 2;
+}
+
+img:hover {
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 768px) {

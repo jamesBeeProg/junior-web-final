@@ -1,0 +1,86 @@
+body {
+    background-color: #d0dcea;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 1.4fr;
+    grid-template-rows: 1.2fr 1.4fr 0.9fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        'Header Header Header'
+        'silde1 silde1 silde2'
+        'Text1 Text1 Text2'
+        'Footer Footer Footer';
+}
+
+.Header {
+    grid-area: Header;
+    background-color: #7a7b7f;
+    text-align: center;
+    padding: 20px;
+}
+
+.silde1 {
+    grid-area: silde1;
+}
+
+.silde2 {
+    grid-area: silde2;
+}
+
+.Text1 {
+    grid-area: Text1;
+}
+
+.Text2 {
+    grid-area: Text2;
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: #7a7b7f;
+    text-align: center;
+    padding: 20px;
+}
+
+#rcorners1 {
+    border-radius: 10px;
+    background: #7a8392;
+    padding: 10px;
+    width: 500px;
+    height: 70px;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    background: #b5aea6;
+    padding: 20px;
+    width: 300px;
+    height: 70px;
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: #a1a5b0;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+}
+
+#rcorners4 {
+    border-radius: 25px;
+    background: #d4c2b4;
+    padding: 25px;
+    width: 500px;
+    height: 80px;
+}
+
+#rcorners5 {
+    border-radius: 25px;
+    background: #d4c2a4;
+    padding: 20px;
+    width: 500px;
+    height: 70px;
+}
