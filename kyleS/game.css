@@ -1,0 +1,22 @@
+body {
+    background-image: url('Gameback.jpg');
+    background-color: #353232;
+}
+
+.words {
+    color: rgb(0, 0, 0);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0.5em solid rgb(42, 11, 49);
+    background-color: white;
+}
+
+h3 {
+    margin-top: 1em;
+    color: rgb(194, 55, 209);
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    color: rgb(194, 55, 209);
+}
