@@ -40,7 +40,8 @@ for (const [path, text] of Object.entries(sidebar)) {
     const query = `//button[contains(., '${text}')]`;
     const button = document.evaluate(query, navbar).iterateNext();
 
-    button.parentElement.classList.add('drop-down-active');
+    button.parentElement.classList.add('no-anime', 'drop-down-active');
+    setTimeout(() => button.parentElement.classList.remove('no-anime'), 500);
 
     const content = button.nextElementSibling;
     content.style.maxHeight = content.scrollHeight + 'px';

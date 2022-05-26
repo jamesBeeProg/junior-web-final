@@ -182,3 +182,7 @@ footer {
     background-color: rgba(128, 128, 128, 0.8);
     border-radius: 4px;
 }
+
+.no-anime * {
+    transition-duration: 0s !important;
+}
