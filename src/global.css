@@ -182,3 +182,16 @@ footer {
     background-color: rgba(128, 128, 128, 0.8);
     border-radius: 4px;
 }
+
+footer:hover {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

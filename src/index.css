@@ -34,6 +34,20 @@ section a {
     text-decoration: none;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background2);
+    border-bottom: 1px solid var(--background3);
+}
+
+header > img {
+    border-radius: 15px;
+    width: 40%;
+    border: 1px solid var(--background4);
+}
+
 @media screen and (max-width: 1600px) {
     section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -48,7 +62,7 @@ section a {
 }
 
 @media (max-width: 1000px) {
-    section{
+    section {
         padding: 10px;
         gap: 10px;
     }

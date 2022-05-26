@@ -95,3 +95,7 @@ section.overview > img {
 .costs {
     grid-template-columns: 1fr 1fr;
 }
+
+img:hover {
+    transform: scale(1.03);
+}
